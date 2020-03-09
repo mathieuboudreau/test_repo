@@ -1,7 +1,7 @@
 FROM qmrlab/mcrcli:vRRSG
 
 RUN cd $HOME;   \
-    git clone --single-branch -b master https://github.com/MartinaBoshkovska/test_repo
+    git clone --single-branch -b master https://github.com/mathieuboudreau/test_repo.git
 
 WORKDIR $HOME
 
